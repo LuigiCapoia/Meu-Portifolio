@@ -2,6 +2,7 @@ var Maario = document.getElementById("mario")
 var React = document.getElementById("react")
 var Native = document.getElementById("react-native")
 var HtmlCss = document.getElementById("html")
+var RickMorty = document.getElementById("RickAndMorty")
 Maario.addEventListener("click", function () {
     window.location = 'https://github.com/LuigiCapoia/MarioJump';
 });
@@ -13,6 +14,9 @@ Native.addEventListener("click", function () {
 });
 HtmlCss.addEventListener("click", function () {
     window.location = 'https://github.com/LuigiCapoia/ciclo1-html-css';
+});
+RickMorty.addEventListener("click", function () {
+    window.location = 'https://luigicapoia.github.io/Api_Rick_and_Morty/';
 });
 
 

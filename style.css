@@ -438,6 +438,42 @@ a:hover {
     visibility: visible;
     font-size: 14px;
 }
+/* ////////////////////////////////////////////////////////////// */
+
+.card3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 3rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eb640b;
+    background-image: url(./img/rick-and-morty-tv-rick-sanchez-morty-smith-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.card3:hover {
+    filter: unset;
+}
+
+.card3:hover>.card-wrapper::before {
+    height: 200px;
+    width: 200px;
+    opacity: 1;
+}
+
+.card3:hover>.card-wrapper p {
+    opacity: 1;
+    visibility: visible;
+    font-size: 14px;
+}
 
 /* Footer */
 
