@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="./script.js" defer></script>
-    <title>Portifolio</title>
+    <title>Portifolio 🗏</title>
 </head>
 
 <body>
@@ -25,13 +25,13 @@
                     <nav class="menu-itens">
                         <ul>
                             <li>
-                                <a href="">Home</a>
+                                <a href="" onclick="closeMenu()">Home</a>
                             </li>
                             <li>
-                                <a href="">Sobre</a>
+                                <a href="#sobre" onclick="closeMenu()">Sobre</a>
                             </li>
                             <li>
-                                <a href="">Projetos</a>
+                                <a href="#projetos" onclick="closeMenu()">Projetos</a>
                             </li>
                         </ul>
                     </nav>
@@ -49,7 +49,7 @@
             <a href="https://drive.google.com/file/d/1moJD7m1TObXwMviwBGt5Ugkzt_o0ccHg/view?usp=sharing">Currículo</a>
         </div>
     </header>
-    <div class="sobre">
+    <div class="sobre" id="sobre">
         <h2>Sobre Mim</h2>
         <p>
             Desenvolvedor Full Stack e administrador de banco de
@@ -67,7 +67,7 @@
 
         </p>
     </div>
-    <main class="container">
+    <main class="container" id="projetos">
         <div class="card-container">
             <div class="card" id="mario">
                 <div class="card-wreaper">
