@@ -63,30 +63,6 @@ a:hover {
     border: 1px solid white;
 }
 
-/*Curriculo*/
-
-.curriculo {
-    margin-top: 1rem;
-    display: flex;
-    padding-left: 13rem;
-}
-
-.curriculo a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    padding: 1rem 4rem;
-    border: 1px solid rgb(0, 0, 0);
-    min-width: 4rem;
-    display: flex;
-    justify-content: center;
-    transition: .5s ease-in-out;
-}
-
-a:hover {
-    background-color: white;
-    color: black;
-    border: 1px solid white;
-}
 
 /* Sobre */
 .sobre{

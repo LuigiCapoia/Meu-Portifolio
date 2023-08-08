@@ -4,7 +4,7 @@ var Native = document.getElementById("react-native")
 var HtmlCss = document.getElementById("html")
 var RickMorty = document.getElementById("RickAndMorty")
 Maario.addEventListener("click", function () {
-    window.location = 'luigicapoia.github.io/Mario_jump/';
+    window.location = 'https://luigicapoia.github.io/Mario_jump/';
 });
 React.addEventListener("click", function () {
     window.location = 'https://github.com/LuigiCapoia/TI-Academy-React';
