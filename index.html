@@ -5,14 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css" id="light-theme">
+    <link rel="stylesheet" href="./css/style2.css">
+    <link rel="stylesheet" href="./css/style3.css" id="claro">
+    <link rel="stylesheet" href="./css/stayle3Dark.css" id="escuro" disabled>
+    <link rel="stylesheet" href="./css/theme_checkbox.css">
+    <link rel="stylesheet" href="./css/dark-theme.css" id="dark-theme" disabled >
+    <script src="./script/script.js" defer></script>
     <title>Portifolio 🗏</title>
 </head>
 
 <body>
     <header class="header-container">
         <div class="header">
+            
+            <div class="botaoTema">
+                <input type="checkbox" class="theme-checkbox" id="theme-toggle">
+                <label for="theme-toggle"></label>
+            </div>
+    
             <div class="checkbox-container">
                 <div class="checkbox-wapper">
                     <input type="checkbox" id="toggle">
@@ -174,6 +185,8 @@
     </main>
     <footer class="footer">
         Feito por Luigi Capoia
+        <script src="./script/scriptTheme.js"></script>
+        <script src="./script/otrotema.js"></script>
     </footer>
 </body>
 

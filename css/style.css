@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:top center ;
+    overflow-x: hidden; 
+}
+
+/* Heder */
+
+.header-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #e79762;
+    background-image: url('../img/portifolio.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 112px;
+    position: relative;
+}
+
+h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.social-midia {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.social-midia a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 1rem 4rem;
+    border: 1px solid rgb(0, 0, 0);
+    min-width: 4rem;
+    display: flex;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+
+/* Sobre */
+.sobre{
+    height: 100vh;
+    width: 100vw;
+    background-color: #e79762;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 112px;
+    position: relative;
+}
+
+.sobre p{
+    font-size: larger;
+}
+
+
+
+/* Footer */
+
+.footer{
+width: 100%;
+height: 100px;
+background-color: #e79762;
+display: flex;
+align-items: center;
+color: rgb(0, 0, 0);
+justify-content: center;
+}
+
+/* barra de rolagem */
+
+/* Largura da barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Cor de fundo da barra de rolagem */
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  /* Cor do "thumb" (o indicador de posição) da barra de rolagem */
+  ::-webkit-scrollbar-thumb {
+    background-color: #888;
+  }
+  
+  /* Estilo de borda da barra de rolagem */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  
+
+/* botao tema */
+.botaoTema{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 9999;
+}
